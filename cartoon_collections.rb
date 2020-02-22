@@ -15,7 +15,8 @@ end
 
 def long_planeteer_call(array)
   array.each {|word|
-    if word.length > 4
+    word_length = word.length 
+    if word_length > 4
       return true 
     else 
       return false 
