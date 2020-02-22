@@ -7,7 +7,7 @@ end
 def summon_captain_planet(array)
   array.map {|word| 
     word_array = word.split('')
-    word_array[0] = word_array[0].upcase!
+    word_array[0] = word_array[0].upcase
     word_array << "!"
     word_array.join('')
   }
