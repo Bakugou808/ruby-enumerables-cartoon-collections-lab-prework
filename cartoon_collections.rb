@@ -15,7 +15,7 @@ end
 
 def long_planeteer_call(array)
   array.find {|word|
-    word.count >= 4
+    word.count > 4
   }
 end
 
