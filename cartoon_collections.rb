@@ -27,6 +27,7 @@ def find_the_cheese(array)
       if word == cheese 
         return cheese 
       end 
+    end 
   end 
   nil 
 end
